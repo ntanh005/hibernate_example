@@ -14,8 +14,8 @@ public class Stock implements java.io.Serializable {
 	public Stock(String stockCode, String stockName) {
 		this.stockCode = stockCode;
 		this.stockName = stockName;
-	}
-
+	}	
+	
 	public Integer getStockId() {
 		return this.stockId;
 	}
