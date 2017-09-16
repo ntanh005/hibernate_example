@@ -18,8 +18,8 @@ public class App
         session.beginTransaction();
         Stock stock = new Stock();
 
-        stock.setStockCode("4715");
-        stock.setStockName("GENM");
+        stock.setStockCode("0001");
+        stock.setStockName("ntanh");
 
         session.save(stock);
         session.getTransaction().commit();
